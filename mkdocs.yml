@@ -1,5 +1,19 @@
-site_name: Playbook de Ingeniería
+site_name: Playbook de Ética e Ingeniería
 theme:
-  name: material # Este tema le da el diseño profesional y buscador
+  name: material
   palette:
-    scheme: preference # Cambia automáticamente entre modo claro y oscuro
+    scheme: preference
+  features:
+    - navigation.tabs # Crea pestañas superiores si el menú es muy largo
+    - search.suggest
+
+nav:
+  - Inicio: index.md
+  - Código de Ética (ACM/IEEE): codigo-etica.md
+  - Clasificación de Incidentes: incidentes.md
+  - Protocolos de Respuesta: protocolos.md
+  - Seguridad (Stallings): seguridad.md
+  - Inteligencia Artificial (Sommerville): inteligencia-artificial.md
+  - Análisis de Riesgos: riesgos.md
+  - Auditorías de Seguridad: auditorias.md
+  - Buenas Prácticas (Pressman): buenas-practicas.md
