@@ -1,0 +1,5 @@
+site_name: Playbook de Ingeniería
+theme:
+  name: material # Este tema le da el diseño profesional y buscador
+  palette:
+    scheme: preference # Cambia automáticamente entre modo claro y oscuro
