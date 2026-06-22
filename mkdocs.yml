@@ -19,3 +19,6 @@ nav:
   - Análisis de Riesgos: riesgos.md
   - Auditorías de Seguridad: auditorias.md
   - Buenas Prácticas (Pressman): buenas-practicas.md
+
+extra_css:
+  - stylesheets/extra.css
