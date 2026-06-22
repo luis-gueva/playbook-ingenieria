@@ -6,6 +6,7 @@ theme:
   features:
     - navigation.tabs # Crea pestañas superiores si el menú es muy largo
     - navigation.tabs.sticky
+    - navigation.tracking
     - search.suggest
 
 nav:
