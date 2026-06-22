@@ -1,0 +1,11 @@
+/* Fuerza a que el menú de pestañas superior tenga barra de movimiento horizontal si no cabe */
+.md-tabs__list {
+    display: flex;
+    overflow-x: auto !important;
+    white-space: nowrap;
+    scroll-behavior: smooth;
+}
+/* Oculta la barra de desplazamiento física para que se vea estético, pero permite moverlo */
+.md-tabs__list::-webkit-scrollbar {
+    height: 0px;
+}
