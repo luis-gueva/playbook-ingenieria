@@ -5,6 +5,7 @@ theme:
     scheme: preference
   features:
     - navigation.tabs # Crea pestañas superiores si el menú es muy largo
+    - navigation.tabs.sticky
     - search.suggest
 
 nav:
